@@ -1,0 +1,132 @@
+body{
+    background-color: #CB997E;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #DDBEA9;
+    display: grid;
+    grid-template-columns: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+nav a:hover{
+    background-color: #FFE8D6;
+    color: #A5A58D;
+}  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFE8D6;
+    color:  #A5A58D
+ }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFE8D6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #DDBEA9;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.fashiont{
+    text-align: center;
+    color: #6B705C;
+    font-style: italic;
+    font-size: 55px;
+}
+.fashiond{
+    text-align: center;
+    color: #6B705C;
+}
+.assignments{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.burn, .aa2, .aa3{
+    width: 230px;
+    border: 10px solid #6B705C;
+    align-items: center;
+}
+.aa3{
+    height: 300px;
+}
+.burn:hover, .aa2:hover, .aa3:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.a1{
+    margin: 200px 0;
+    background-color: #6B705C;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.a2{
+    margin: 200px 0;
+    background-color: #6B705C;
+    grid-column: 5/7;
+    grid-row: 2/3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.a3{
+    margin: 200px 0;
+    background-color: #6B705C;
+    grid-column: 8/10;
+    grid-row: 2/3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+h5{
+    font-size: medium;
+    text-align: center;
+    color: #FFE8D6;
+}
