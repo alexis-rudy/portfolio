@@ -14,17 +14,32 @@
         <nav>
             <ul>
                 <li><a href="index.html"><img src="img/home.png"></a></li>
-                <li><a href="#"><img src="img/clip.png"></a></li>
+                <li><a href="portfolio.html"><img src="img/clip.png"></a></li>
                 <li><a href="contactme.html"><img src="img/envelope.png"></a></li>
                 <li><a href="aboutme.html"><img src="img/user.png"></a></li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <form>
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder='someone@email.com' required></label>
+            </fieldset>
+        </form>
     </main>
     <footer>
-
+        <div>Last Modified: <span id="lastmod"></span></div>
+        <div class="icons">&#169; <span id="year"></span></div>
+        <div>Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></div>
+        <div class="icons">
+            <a href="https://github.com/alexis-rudy"><img src="img/github.png" alt="github logo"></a>
+            <a href="www.linkedin.com/in/alexis-rudy"><img src="img/linkedin.png" alt="linkedin logo"></a>
+        </div>
+        <script src="script/motion.js"></script>
     </footer>
 </body>
 </html>
